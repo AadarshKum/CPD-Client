@@ -1,0 +1,11 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #fff;
+	padding-left: 33%;
+}
+
+.navlink {
+	margin-right: 45px;
+}

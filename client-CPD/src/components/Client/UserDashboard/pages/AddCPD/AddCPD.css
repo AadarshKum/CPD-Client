@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap");
+
+/* input {
+	caret-color: red;
+} */
+
+.main_container {
+	margin: 0;
+	width: 100vw;
+	/* height: 100vh; */
+	background: #ecf0f3;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	place-items: center;
+	overflow: hidden;
+	font-family: poppins;
+}
+
+.container_addCPD {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	position: relative;
+	width: 56vw;
+	/* height: 1200px; */
+	border-radius: 20px;
+	padding: 40px;
+	box-sizing: border-box;
+	background: #ecf0f3;
+	box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.brand-logo {
+	height: 100px;
+	width: 100px;
+	margin: auto;
+	border-radius: 50%;
+	box-sizing: border-box;
+	box-shadow: 7px 7px 10px #cbced1, -7px -7px 10px white;
+}
+
+.brand-title {
+	margin-bottom: 50px;
+	margin-top: 10px;
+	font-weight: 900;
+	font-size: 1.8rem;
+	color: #941414;
+	letter-spacing: 1px;
+}
+
+.inputss {
+	text-align: left;
+	margin-top: 30px;
+}
+
+.labelss,
+.login-form-input,
+.login-form-btn {
+	display: block;
+	width: 100%;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+}
+
+.labelss {
+	margin-bottom: 4px;
+}
+
+.labelss:nth-of-type(2) {
+	margin-top: 12px;
+}
+
+.login-form-input::placeholder {
+	color: gray;
+}
+
+.login-form-input {
+	background: #ecf0f3;
+	padding: 10px;
+	color: black;
+	padding-left: 20px;
+	height: 50px;
+	font-size: 14px;
+	border-radius: 50px;
+	box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+}
+
+.login-form-btn {
+	color: white;
+	margin-top: 20px;
+	background: #941414;
+	height: 40px;
+	width: 170px;
+	border-radius: 20px;
+	cursor: pointer;
+	font-weight: 900;
+	box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+	transition: 0.5s;
+}
+
+.login-form-btn:hover {
+	box-shadow: none;
+}
+
+.text {
+	color: #941414;
+}
+
+.text_login {
+	text-decoration: underline;
+	color: #941414;
+}
+
+.addCPD_btn {
+	display: flex;
+}
+
+.addCPD_about {
+	margin-top: 40px;
+}
+
+.addCPD_about p {
+	font-size: 10px;
+}
+.img_and_hour {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.img_and_hour img {
+	margin-left: -20px;
+}
+
+.img_and_hour p {
+	width: 390px;
+	font-size: 9px;
+	margin-left: -42px;
+}
+
+.border {
+	padding: 50% 11%;
+	border: 1px solid black;
+}
+.required_p {
+	margin: 15px;
+	font-size: 8px;
+}

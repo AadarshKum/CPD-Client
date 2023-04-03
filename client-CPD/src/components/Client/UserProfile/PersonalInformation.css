@@ -1,0 +1,62 @@
+.container_profile {
+	margin-top: 5%;
+	margin-bottom: 5%;
+	position: relative;
+	width: 434px;
+	height: 405px;
+	border-radius: 20px;
+	padding: 40px;
+	box-sizing: border-box;
+	background: #ecf0f3;
+	box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.showBtn {
+	position: absolute;
+	top: 30%;
+	right: 2%;
+	color: white;
+	border: none;
+	background: #941414;
+	height: 40px;
+	width: 146px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-weight: 900;
+	box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+	transition: 0.5s;
+}
+
+.showBtn:hover {
+	box-shadow: none;
+}
+
+.personal-info-container {
+	margin: 20px;
+}
+
+.personal-info {
+	border: 1px solid #ccc;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.personal-info h2 {
+	margin-top: 0;
+	font-size: 24px;
+}
+
+.personal-info-row {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.personal-info-label {
+	font-weight: bold;
+	margin-right: 10px;
+	width: 150px;
+}
+
+.personal-info-value {
+	flex: 1;
+}

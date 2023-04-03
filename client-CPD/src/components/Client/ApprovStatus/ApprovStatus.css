@@ -1,0 +1,11 @@
+.appr_status {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin-top: -150px;
+}
+.appr_status h1 {
+	margin-bottom: 40px;
+}
