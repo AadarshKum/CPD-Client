@@ -27,7 +27,7 @@ const SignUp = () => {
 	const handleSubmit = async (event) => {
 		event.preventDefault();
 		const data = { name, email, password, phone };
-		const baseUrl = "http://localhost:3000/signup";
+		const baseUrl = "https://server-cpd-git-main-aadarshkum.vercel.app//signup";
 
 		try {
 			await axios.post(baseUrl, data);
