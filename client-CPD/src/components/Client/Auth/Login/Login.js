@@ -17,7 +17,7 @@ const Login = () => {
 // 		const baseUrl = "https://server-cpd-git-main-aadarshkum.vercel.app/login";
 		
 		{
-        return fetch('https://server-cpd-git-main-aadarshkum.vercel.app/login',
+       fetch('https://server-cpd-git-main-aadarshkum.vercel.app/login',
         {   method:'POST',
             mode: 'cors',
             headers:{
