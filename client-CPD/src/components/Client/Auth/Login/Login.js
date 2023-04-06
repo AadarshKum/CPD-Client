@@ -14,7 +14,31 @@ const Login = () => {
 		event.preventDefault();
 		console.log(email, password);
 		const data = { email, password };
-		const baseUrl = "https://server-cpd-git-main-aadarshkum.vercel.app/login";
+// 		const baseUrl = "https://server-cpd-git-main-aadarshkum.vercel.app/login";
+		
+		{
+        return fetch('https://server-cpd-git-main-aadarshkum.vercel.app/login',
+        {   method:'POST',
+            mode: 'cors',
+            headers:{
+                'Access-Control-Allow-Origin':'*'
+            },
+        })
+        .then((response) => response.json())
+        .then((responseJson) => {
+            console.log(responseJson.ALLORDERSRX);
+            this.setState({
+                isLoading: false,
+                dataSource: responseJson.ALLORDERSRX,
+            }, function(){
+
+            });
+        })
+        .catch((error) =>{
+            console.error(error);
+        });
+
+    }
 
 		try {
 			const result = await axios.post(baseUrl, data);
