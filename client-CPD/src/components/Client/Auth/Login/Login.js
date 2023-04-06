@@ -14,7 +14,7 @@ const Login = () => {
 		event.preventDefault();
 		console.log(email, password);
 		const data = { email, password };
-		const baseUrl = "http://localhost:3000/login";
+		const baseUrl = "https://server-cpd-git-main-aadarshkum.vercel.app/login";
 
 		try {
 			const result = await axios.post(baseUrl, data);
